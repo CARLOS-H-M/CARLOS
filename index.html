@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso por Área y Clave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Acceso por Área y Clave</h1>
+        <form id="accessForm">
+            <label for="area">Selecciona un área:</label>
+            <select id="area" name="area">
+                <option value="Almacen">Almacen</option>
+                <option value="Calidad">Calidad</option>
+                <option value="Servicio">Servicio</option>
+            </select>
+
+            <label for="clave">Ingresa la clave:</label>
+            <input type="password" id="clave" name="clave" required>
+
+            <button type="submit">Acceder</button>
+        </form>
+
+        <div id="enlaceContainer" style="display: none;">
+            <p>¡Acceso concedido! Haz clic en el siguiente enlace:</p>
+            <a id="enlaceAcceso" href="#">Ir al área seleccionada</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
