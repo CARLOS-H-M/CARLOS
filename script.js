@@ -6,16 +6,16 @@ document.getElementById('accessForm').addEventListener('submit', function(event)
 
     // Definimos las claves válidas para cada área
     const clavesValidas = {
-        Almacen: "Alm123", // Clave para Fabricación
-        Logistica: "ctrl456",    // Clave para Control Estructural
-        RecursosHumanos: "Servicio",    // Clave para Servicio
-	Ingenieria: "Servicio",
-	Calidad: "Servicio",
-	Estructural: "Servicio",
-	Fabricacion: "Servicio",
- 	Ensamble: "Servicio",
-	SubEnsamble: "Servicio",
-	Servicio: "Servicio"
+        Almacen: "CADALAP", // Clave para Fabricación
+        Logistica: "CADLOCOM",    // Clave para Control Estructural
+        RecursosHumanos: "GH2025",    // Clave para Servicio
+	Ingenieria: "ININVDES",
+	Calidad: "OPCONCAL",
+	Estructural: "OPCONCON",
+	Fabricacion: "OPFAB",
+ 	Ensamble: "OPENSAM",
+	SubEnsamble: "OPSUBEN",
+	Servicio: "SERVTALLCAMMIN"
     	};
 
     // Definimos los enlaces para cada área
